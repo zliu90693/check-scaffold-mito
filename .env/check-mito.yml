@@ -1,0 +1,6 @@
+name: check-mito
+channels:
+  - conda-forge
+  - bioconda
+  - defaults
+prefix: /home/liuzhiyu/Software/miniconda3/envs/check-mito

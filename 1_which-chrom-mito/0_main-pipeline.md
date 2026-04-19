@@ -1,3 +1,19 @@
 - Manually download whole genome/whole proteome/annotation files from the database
 - Create symbolic links for .fna files using [1_make-link.md](./1_make-link.md)
 - Find which chromosomes in the fna files correspond to mitochondria using [2_which-chrom-mito.py](./2_which-chrom-mito.py)
+  - Mitochondria exist, and mitochondrial genes are represented on a single chromosome:
+    - Apis mellifera
+    - Apis cerana
+    - Drosophila melanogaster
+  - The genome was assembled at the chromosome level, but fasta did not include mitochondria:
+    - mito is stored separately:
+      - Monomorium pharaonis 
+      - Bombus terrestris
+    - where mito is stored is uncertain:
+      - Lasioglossum zephyrus(NCBI Refseq)
+  - The genome was assembled at the scaffold level; I don't know if it contains mitochondria:
+    - Camponotus floridanus
+    - Ceratina calcarata
+    - Harpegnathos saltator
+    - Lasioglossum zephyrus(Lab Site)
+    - Lasioglossum albipes
