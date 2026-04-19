@@ -1,0 +1,3 @@
+- Manually download whole genome/whole proteome/annotation files from the database
+- Create symbolic links for .fna files using [1_make-link.md](./1_make-link.md)
+- Find which chromosomes in the fna files correspond to mitochondria using [2_which-chrom-mito.py](./2_which-chrom-mito.py)
