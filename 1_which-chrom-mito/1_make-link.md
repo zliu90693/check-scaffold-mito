@@ -7,7 +7,7 @@ for sp_path in "${data_path}/"*; do
     mkdir -p "./data/${sp_name}"
     for fna_path in $(find $sp_path -name "*.fna"); do
         fna_name=$(basename $fna_path)
-        ln -s $fna_path "./data/${sp_name}/${fna_name}"
+        ln -sf $fna_path "./data/${sp_name}/${fna_name}"
     done
 done
 ```

@@ -1,0 +1,2 @@
+- Create symbolic links for .faa and annotation files using [1_make-link.md](./1_make-link.md)
+- 

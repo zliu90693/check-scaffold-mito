@@ -1,0 +1,14 @@
+seqname,source,feature,start,end,score,strand,frame,gene_id,transcript_id,db_xref,description,gbkey,gene,gene_biotype,experiment,model_evidence,product,transcript_biotype,exon_number,protein_id,part,anticodon,inference,note,exception,pseudo,transl_except,gene_synonym,partial,deleted,substituted,locus_tag,codons,transl_table
+NC_014295.1,RefSeq,CDS,673,1665,,+,0,KEH14_p13,unassigned_transcript_233,"","",CDS,ND2,"","","",NADH,"",1,YP_003735169.1,"","","","","","","","","","","",KEH14_p13,"",5
+NC_014295.1,RefSeq,CDS,1893,3450,,+,0,KEH14_p12,unassigned_transcript_237,"","",CDS,COX1,"","","",cytochrome,"",1,YP_003735170.2,"","","",TAA,"","","(pos:3453..3453,aa:TERM)","","","","",KEH14_p12,"",5
+NC_014295.1,RefSeq,CDS,3613,4290,,+,0,KEH14_p11,unassigned_transcript_239,"","",CDS,COX2,"","","",cytochrome,"",1,YP_003735171.1,"","","","","","","","","","","",KEH14_p11,"",5
+NC_014295.1,RefSeq,CDS,4444,4602,,+,0,KEH14_p10,unassigned_transcript_242,"","",CDS,ATP8,"","","",ATP,"",1,YP_003735172.1,"","","","","","","","","","","",KEH14_p10,"",5
+NC_014295.1,RefSeq,CDS,4587,5261,,+,0,KEH14_p09,unassigned_transcript_243,"","",CDS,ATP6,"","","",ATP,"",1,YP_003735173.1,"","","","","","","","","","","",KEH14_p09,"",5
+NC_014295.1,RefSeq,CDS,5282,6058,,+,0,KEH14_p08,unassigned_transcript_244,"","",CDS,COX3,"","","",cytochrome,"",1,YP_003735174.1,"","","","","","","","","","","",KEH14_p08,"",5
+NC_014295.1,RefSeq,CDS,6195,6545,,+,0,KEH14_p07,unassigned_transcript_246,"","",CDS,ND3,"","","",NADH,"",1,YP_003735175.1,"","","","","","","","","","","",KEH14_p07,"",5
+NC_014295.1,RefSeq,CDS,6819,8486,,-,0,KEH14_p06,unassigned_transcript_250,"","",CDS,ND5,"","","",NADH,"",1,YP_003735176.1,"","","","","","","","","","","",KEH14_p06,"",5
+NC_014295.1,RefSeq,CDS,8573,9898,,-,0,KEH14_p05,unassigned_transcript_252,"","",CDS,ND4,"","","",NADH,"",1,YP_003735177.1,"","","","","","","","","","","",KEH14_p05,"",5
+NC_014295.1,RefSeq,CDS,9902,10162,,-,0,KEH14_p04,unassigned_transcript_253,"","",CDS,ND4L,"","","",NADH,"",1,YP_003735178.1,"","","","","","","","","","","",KEH14_p04,"",5
+NC_014295.1,RefSeq,CDS,10396,10902,,+,0,KEH14_p03,unassigned_transcript_256,"","",CDS,ND6,"","","",NADH,"",1,YP_003735179.1,"","","","","","","","","","","",KEH14_p03,"",5
+NC_014295.1,RefSeq,CDS,10918,12063,,+,0,KEH14_p02,unassigned_transcript_257,"","",CDS,CYTB,"","","",cytochrome,"",1,YP_003735180.1,"","","","","","","","","","","",KEH14_p02,"",5
+NC_014295.1,RefSeq,CDS,12172,13083,,-,0,KEH14_p01,unassigned_transcript_259,"","",CDS,ND1,"","","",NADH,"",1,YP_003735181.1,"","","","","","","","","","","",KEH14_p01,"",5
