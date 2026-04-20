@@ -1,2 +1,2 @@
 - Create symbolic links for .faa and annotation files using [1_make-link.md](./1_make-link.md)
-- 
+- Search the 13 mitochondrial protein-coding genes in Apis mellifera, Apis cerana, Drosophila melanogaster (the three species containing mitochondria in the whole genome fasta files) using [2_find-mito-gene.py](./2_find-mito-gene.py), and the results were saved in CSV format.
