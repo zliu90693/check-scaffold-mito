@@ -16,7 +16,3 @@
     - Harpegnathos saltator
     - Lasioglossum zephyrus(Lab Site)
     - Lasioglossum albipes
-- Because the neutralized mitochondrial sequences in Class 2 are not included in the genomic data, but are stored separately in other locations, and the mitochondria are not annotated, there are now two options:
-  - Annotate the unannotated mitochondrial genome in Class 2, translate the genes into proteins, and merge them into the protein fasta file of the genome. Then, input Class 1, Class 2, and Class 4 together into Orthofinder.
-  - Alternatively, run Orthofinder without using the data in Class 2 at all, using only Class 1 and Class 4.
-- Considering that the purpose of this project is only to identify mitochondrial genes in the scaffold level genome, whether or not to annotate mitochondria in Class 2 has little impact on Orthofinder, I chose not to use Class 2 in Orthofinder.

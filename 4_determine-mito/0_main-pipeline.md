@@ -1,2 +1,0 @@
-- Create symbolic links for OrthoFinder output files and mitogene information using [1_make-link.md](./1_make-link.md)
-- 
