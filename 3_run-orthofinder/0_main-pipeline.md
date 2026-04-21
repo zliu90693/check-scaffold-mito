@@ -1,1 +1,1 @@
-- Create symbolic links for .faa files using [1_make-link.md](./1_make-link.md)
+- copy .faa files using [1_make-cp.md](./1_make-cp.md). The reason for using copying instead of creating symbolic links is that faa needs to be trimmed using primary_transcript.py before Orthofinder can be used.
