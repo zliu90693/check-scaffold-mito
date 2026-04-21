@@ -1,22 +1,22 @@
 - Manually download whole genome/whole proteome/annotation files from the database
 - Create symbolic links for .fna files using [1_make-link.md](./1_make-link.md)
 - Find which chromosomes in the fna files correspond to mitochondria using [2_which-chrom-mito.py](./2_which-chrom-mito.py)
-  - (1) Mitochondria exist, and mitochondrial genes are stored as a single chromosome:
+  - Class 1: Mitochondria exist, and mitochondrial genes are stored as a single chromosome:
     - Apis mellifera
     - Apis cerana
     - Drosophila melanogaster
-  - (2) The genome was assembled at the chromosome level, but fasta did not include mitochondria, mito is stored separately:
+  - Class 2: The genome was assembled at the chromosome level, but fasta did not include mitochondria, mito is stored separately:
     - Monomorium pharaonis 
     - Bombus terrestris
-  - (3) The genome was assembled at the chromosome level, but fasta did not include mitochondria, where mito is stored is uncertain:
+  - Class 3: The genome was assembled at the chromosome level, but fasta did not include mitochondria, where mito is stored is uncertain:
     - Lasioglossum zephyrus(NCBI Refseq)
-  - (4) The genome was assembled at the scaffold level; I don't know if it contains mitochondria:
+  - Class 4: The genome was assembled at the scaffold level; I don't know if it contains mitochondria:
     - Camponotus floridanus
     - Ceratina calcarata
     - Harpegnathos saltator
     - Lasioglossum zephyrus(Lab Site)
     - Lasioglossum albipes
-- Because the neutralized mitochondrial sequences in (2) are not included in the genomic data, but are stored separately in other locations, and the mitochondria are not annotated, there are now two options:
-  - Annotate the unannotated mitochondrial genome in (2), translate the genes into proteins, and merge them into the protein fasta file of the genome. Then, input (1), (2), and (4) together into Orthofinder.
-  - Alternatively, run Orthofinder without using the data in (2) at all, using only (1) and (4).
-- Considering that the purpose of this project is only to identify mitochondrial genes in the scaffold level genome, whether or not to annotate mitochondria in (2) has little impact on Orthofinder, I chose not to use (2) in Orthofinder.
+- Because the neutralized mitochondrial sequences in Class 2 are not included in the genomic data, but are stored separately in other locations, and the mitochondria are not annotated, there are now two options:
+  - Annotate the unannotated mitochondrial genome in Class 2, translate the genes into proteins, and merge them into the protein fasta file of the genome. Then, input Class 1, Class 2, and Class 4 together into Orthofinder.
+  - Alternatively, run Orthofinder without using the data in Class 2 at all, using only Class 1 and Class 4.
+- Considering that the purpose of this project is only to identify mitochondrial genes in the scaffold level genome, whether or not to annotate mitochondria in Class 2 has little impact on Orthofinder, I chose not to use Class 2 in Orthofinder.
