@@ -1,1 +1,2 @@
 - copy .faa files using [1_make-cp.md](./1_make-cp.md). The reason for using copying instead of creating symbolic links is that faa needs to be trimmed using primary_transcript.py before Orthofinder can be used.
+- Use [2_run-orthofinder.md](./2_run-orthofinder.md) to retain the longest transcript and run Orthofinder.
