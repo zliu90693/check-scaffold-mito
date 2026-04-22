@@ -1,0 +1,16 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+ENSBTSP00005066521.1 -          CYTB_aligned         -            3.7e-47  162.3  18.4   4.9e-47  161.9  18.4   1.2   1   0   0   1   1   1   1 pep primary_assembly:iyBomTerr1.2:CAJUYY020000005.1:4445856:4446527:1 gene:ENSBTSG00005029979.1 transcript:ENSBTST00005051830.1 gene_biotype:protein_coding transcript_biotype:protein_coding
+ENSBTSP00005041847.1 -          CYTB_aligned         -              5e-47  161.9  19.0   6.8e-47  161.4  19.0   1.2   1   0   0   1   1   1   1 pep primary_assembly:iyBomTerr1.2:11:14945225:14945899:-1 gene:ENSBTSG00005037374.1 transcript:ENSBTST00005056110.1 gene_biotype:protein_coding transcript_biotype:protein_coding gene_symbol:MOSMO description:modulator of smoothened [Ensembl NN prediction with score 74.41%]
+ENSBTSP00005048246.1 -          CYTB_aligned         -              5e-47  161.9  19.0   6.8e-47  161.4  19.0   1.2   1   0   0   1   1   1   1 pep primary_assembly:iyBomTerr1.2:13:188146:188820:-1 gene:ENSBTSG00005026364.1 transcript:ENSBTST00005046133.1 gene_biotype:protein_coding transcript_biotype:protein_coding gene_symbol:MOSMO description:modulator of smoothened [Ensembl NN prediction with score 74.41%]
+#
+# Program:         hmmsearch
+# Version:         3.4 (Aug 2023)
+# Pipeline mode:   SEARCH
+# Query file:      ./metadata/hmm_interfile/CYTB/CYTB.hmm
+# Target file:     ./data/target_sp_allpep/Bombus_terrestris.faa
+# Option settings: hmmsearch --tblout ./metadata/hmmsearch_output/CYTB/Bombus_terrestris.txt -E 1e-5 ./metadata/hmm_interfile/CYTB/CYTB.hmm ./data/target_sp_allpep/Bombus_terrestris.faa 
+# Current dir:     /home/liuzhiyu/Projects/neo_caste/check-scaffold-mito/3_run-hmm
+# Date:            Wed Apr 22 11:03:49 2026
+# [ok]

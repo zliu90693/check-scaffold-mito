@@ -1,0 +1,13 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+#
+# Program:         hmmsearch
+# Version:         3.4 (Aug 2023)
+# Pipeline mode:   SEARCH
+# Query file:      ./metadata/hmm_interfile/ND6/ND6.hmm
+# Target file:     ./data/target_sp_allpep/Camponotus_floridanus.faa
+# Option settings: hmmsearch --tblout ./metadata/hmmsearch_output/ND6/Camponotus_floridanus.txt -E 1e-5 ./metadata/hmm_interfile/ND6/ND6.hmm ./data/target_sp_allpep/Camponotus_floridanus.faa 
+# Current dir:     /home/liuzhiyu/Projects/neo_caste/check-scaffold-mito/3_run-hmm
+# Date:            Wed Apr 22 11:04:03 2026
+# [ok]
