@@ -1,0 +1,4 @@
+- Create symbolic links for mitochondrial proteins of Class 1 species and total proteins of Class 2\&4 species using [1_make-link.md](./1_make-link.md).
+- Split the mitochondrial proteins from the three Class 1 species into 13 faa files according to protein categories using [2_split-mito-bygenes.py](./2_split-mito-bygenes.py).
+- Generate hmm model by mitochondrial genes from Class 1 species, and the model was used to find target proteins from Class 4 species using [3_run-hmm.md](./3_run-hmm.md).
+- Analyze the results using [4_analysis-output.py](./4_analysis-output.py)
