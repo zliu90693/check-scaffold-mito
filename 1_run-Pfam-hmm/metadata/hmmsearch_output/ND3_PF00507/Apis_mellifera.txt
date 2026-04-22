@@ -1,0 +1,14 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+NP_008088            -          Oxidored_q4          PF00507.25   8.9e-23   80.7   5.7   8.9e-23   80.7   5.7   1.7   1   1   1   2   2   2   1 pep primary_assembly:Amel_HAv3.1:CM009947.2:6185:6538:1 gene:GeneID_807691 transcript:GeneID_807691_df_mr gene_biotype:protein_coding transcript_biotype:protein_coding gene_symbol:ND3 description:NADH-ubiquinone oxidoreductase chain 3 [Source:UniProtKB/TrEMBL;Acc:A0A347ZMV1]
+#
+# Program:         hmmsearch
+# Version:         3.1b1 (May 2013)
+# Pipeline mode:   SEARCH
+# Query file:      ./data/Pfam_hmm/ND3_PF00507.hmm
+# Target file:     ./data/target_sp_allpep/Apis_mellifera.faa
+# Option settings: hmmsearch --tblout ./metadata/hmmsearch_output/ND3_PF00507/Apis_mellifera.txt -E 1e-5 ./data/Pfam_hmm/ND3_PF00507.hmm ./data/target_sp_allpep/Apis_mellifera.faa 
+# Current dir:     /home/liuzhiyu/Projects/neo_caste/check-scaffold-mito/1_run-Pfam-hmm
+# Date:            Wed Apr 22 22:53:21 2026
+# [ok]

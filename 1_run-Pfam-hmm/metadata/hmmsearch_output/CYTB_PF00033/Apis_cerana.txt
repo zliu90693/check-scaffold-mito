@@ -1,0 +1,15 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+XP_061942845.1       -          Cytochrome_B         PF00033.25     7e-83  277.8  11.6   1.5e-82  276.7  11.6   1.6   1   0   0   1   1   1   1 LOW QUALITY PROTEIN: uncharacterized protein LOC133667598 [Apis cerana]
+YP_003735180.1       -          Cytochrome_B         PF00033.25   6.4e-72  242.0  27.1   6.4e-72  242.0  27.1   2.4   3   1   0   3   3   3   1 cytochrome b (mitochondrion) [Apis cerana]
+#
+# Program:         hmmsearch
+# Version:         3.1b1 (May 2013)
+# Pipeline mode:   SEARCH
+# Query file:      ./data/Pfam_hmm/CYTB_PF00033.hmm
+# Target file:     ./data/target_sp_allpep/Apis_cerana.faa
+# Option settings: hmmsearch --tblout ./metadata/hmmsearch_output/CYTB_PF00033/Apis_cerana.txt -E 1e-5 ./data/Pfam_hmm/CYTB_PF00033.hmm ./data/target_sp_allpep/Apis_cerana.faa 
+# Current dir:     /home/liuzhiyu/Projects/neo_caste/check-scaffold-mito/1_run-Pfam-hmm
+# Date:            Wed Apr 22 22:52:59 2026
+# [ok]

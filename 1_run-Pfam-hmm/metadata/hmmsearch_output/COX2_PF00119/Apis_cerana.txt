@@ -1,0 +1,15 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+XP_061942793.1       -          ATP-synt_A           PF00119.26   3.2e-49  168.4   8.7   3.8e-49  168.2   8.7   1.1   1   0   0   1   1   1   1 LOW QUALITY PROTEIN: uncharacterized protein LOC133667541 [Apis cerana]
+YP_003735173.1       -          ATP-synt_A           PF00119.26   1.8e-29  103.8  42.5   2.4e-29  103.4  42.5   1.2   1   0   0   1   1   1   1 ATP synthase F0 subunit 6 (mitochondrion) [Apis cerana]
+#
+# Program:         hmmsearch
+# Version:         3.1b1 (May 2013)
+# Pipeline mode:   SEARCH
+# Query file:      ./data/Pfam_hmm/COX2_PF00119.hmm
+# Target file:     ./data/target_sp_allpep/Apis_cerana.faa
+# Option settings: hmmsearch --tblout ./metadata/hmmsearch_output/COX2_PF00119/Apis_cerana.txt -E 1e-5 ./data/Pfam_hmm/COX2_PF00119.hmm ./data/target_sp_allpep/Apis_cerana.faa 
+# Current dir:     /home/liuzhiyu/Projects/neo_caste/check-scaffold-mito/1_run-Pfam-hmm
+# Date:            Wed Apr 22 22:52:38 2026
+# [ok]

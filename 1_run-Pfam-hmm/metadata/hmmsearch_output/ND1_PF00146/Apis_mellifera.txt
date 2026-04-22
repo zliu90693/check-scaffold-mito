@@ -1,0 +1,14 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+NP_008094            -          NADHdh               PF00146.27   3.1e-74  250.4  41.1   3.6e-74  250.2  41.1   1.0   1   0   0   1   1   1   1 pep primary_assembly:Amel_HAv3.1:CM009947.2:12302:13219:-1 gene:GeneID_807692 transcript:GeneID_807692_df_mr gene_biotype:protein_coding transcript_biotype:protein_coding gene_symbol:ND1 description:NADH-ubiquinone oxidoreductase chain 1 [Source:UniProtKB/TrEMBL;Acc:A0A347ZMU4]
+#
+# Program:         hmmsearch
+# Version:         3.1b1 (May 2013)
+# Pipeline mode:   SEARCH
+# Query file:      ./data/Pfam_hmm/ND1_PF00146.hmm
+# Target file:     ./data/target_sp_allpep/Apis_mellifera.faa
+# Option settings: hmmsearch --tblout ./metadata/hmmsearch_output/ND1_PF00146/Apis_mellifera.txt -E 1e-5 ./data/Pfam_hmm/ND1_PF00146.hmm ./data/target_sp_allpep/Apis_mellifera.faa 
+# Current dir:     /home/liuzhiyu/Projects/neo_caste/check-scaffold-mito/1_run-Pfam-hmm
+# Date:            Wed Apr 22 22:53:05 2026
+# [ok]

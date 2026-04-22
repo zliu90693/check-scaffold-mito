@@ -1,0 +1,20 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+XP_061942853.1       -          Proton_antipo_M      PF00361.26   4.6e-92  309.0  21.0   4.6e-92  309.0  21.0   3.9   4   0   0   4   4   4   2 LOW QUALITY PROTEIN: uncharacterized protein LOC133667607, partial [Apis cerana]
+XP_061942811.1       -          Proton_antipo_M      PF00361.26   2.1e-87  293.7  15.4   2.1e-87  293.7  15.4   2.0   2   0   0   2   2   2   1 LOW QUALITY PROTEIN: uncharacterized protein LOC133667562 [Apis cerana]
+XP_061942809.1       -          Proton_antipo_M      PF00361.26   3.4e-80  270.1  22.1   1.2e-51  176.3  11.6   3.0   3   0   0   3   3   3   2 LOW QUALITY PROTEIN: uncharacterized protein LOC133667560 [Apis cerana]
+YP_003735177.1       -          Proton_antipo_M      PF00361.26   9.3e-58  196.4  56.8   9.3e-58  196.4  56.8   2.2   3   0   0   3   3   3   1 NADH dehydrogenase subunit 4 (mitochondrion) [Apis cerana]
+YP_003735176.1       -          Proton_antipo_M      PF00361.26   8.4e-53  180.2  42.9   8.4e-53  180.2  42.9   3.7   2   2   2   4   4   4   1 NADH dehydrogenase subunit 5 (mitochondrion) [Apis cerana]
+XP_061942786.1       -          Proton_antipo_M      PF00361.26   3.8e-35  122.2  13.4   3.8e-35  122.2  13.4   1.8   2   0   0   2   2   2   1 NADH-ubiquinone oxidoreductase chain 5-like [Apis cerana]
+XP_061942850.1       -          Proton_antipo_M      PF00361.26   4.7e-17   62.8  14.8   2.9e-16   60.2  10.5   2.2   1   1   1   2   2   2   2 uncharacterized protein LOC133667605 [Apis cerana]
+#
+# Program:         hmmsearch
+# Version:         3.1b1 (May 2013)
+# Pipeline mode:   SEARCH
+# Query file:      ./data/Pfam_hmm/ND4_PF00361.hmm
+# Target file:     ./data/target_sp_allpep/Apis_cerana.faa
+# Option settings: hmmsearch --tblout ./metadata/hmmsearch_output/ND4_PF00361/Apis_cerana.txt -E 1e-5 ./data/Pfam_hmm/ND4_PF00361.hmm ./data/target_sp_allpep/Apis_cerana.faa 
+# Current dir:     /home/liuzhiyu/Projects/neo_caste/check-scaffold-mito/1_run-Pfam-hmm
+# Date:            Wed Apr 22 22:53:31 2026
+# [ok]

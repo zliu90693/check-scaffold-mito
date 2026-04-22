@@ -1,0 +1,14 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+FBpp0100177          -          COX2                 PF00116.27   6.8e-63  210.7   0.0   9.7e-63  210.2   0.0   1.2   1   0   0   1   1   1   1 pep primary_assembly:BDGP6.54:mitochondrion_genome:3083:3767:1 gene:FBgn0013675 transcript:FBtr0100863 gene_biotype:protein_coding transcript_biotype:protein_coding gene_symbol:mt:CoII description:mitochondrial Cytochrome c oxidase subunit II
+#
+# Program:         hmmsearch
+# Version:         3.1b1 (May 2013)
+# Pipeline mode:   SEARCH
+# Query file:      ./data/Pfam_hmm/COX2_PF00116.hmm
+# Target file:     ./data/target_sp_allpep/Drosophila_melanogaster.faa
+# Option settings: hmmsearch --tblout ./metadata/hmmsearch_output/COX2_PF00116/Drosophila_melanogaster.txt -E 1e-5 ./data/Pfam_hmm/COX2_PF00116.hmm ./data/target_sp_allpep/Drosophila_melanogaster.faa 
+# Current dir:     /home/liuzhiyu/Projects/neo_caste/check-scaffold-mito/1_run-Pfam-hmm
+# Date:            Wed Apr 22 22:52:36 2026
+# [ok]

@@ -1,0 +1,14 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+NP_008087            -          COX3                 PF00510.24   8.3e-93  311.3  39.3     1e-92  311.0  39.3   1.0   1   0   0   1   1   1   1 pep primary_assembly:Amel_HAv3.1:CM009947.2:5285:6064:1 gene:GeneID_807690 transcript:GeneID_807690_df_mr gene_biotype:protein_coding transcript_biotype:protein_coding gene_symbol:COX3 description:Cytochrome c oxidase subunit 3 [Source:UniProtKB/TrEMBL;Acc:A0A347ZMV0]
+#
+# Program:         hmmsearch
+# Version:         3.1b1 (May 2013)
+# Pipeline mode:   SEARCH
+# Query file:      ./data/Pfam_hmm/COX3_PF00510.hmm
+# Target file:     ./data/target_sp_allpep/Apis_mellifera.faa
+# Option settings: hmmsearch --tblout ./metadata/hmmsearch_output/COX3_PF00510/Apis_mellifera.txt -E 1e-5 ./data/Pfam_hmm/COX3_PF00510.hmm ./data/target_sp_allpep/Apis_mellifera.faa 
+# Current dir:     /home/liuzhiyu/Projects/neo_caste/check-scaffold-mito/1_run-Pfam-hmm
+# Date:            Wed Apr 22 22:52:49 2026
+# [ok]

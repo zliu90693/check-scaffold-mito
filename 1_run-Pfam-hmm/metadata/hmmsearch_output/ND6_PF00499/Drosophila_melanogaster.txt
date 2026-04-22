@@ -1,0 +1,14 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+FBpp0100185          -          Oxidored_q3          PF00499.26   3.7e-09   37.2  21.6   4.7e-09   36.9  21.6   1.1   1   0   0   1   1   1   1 pep primary_assembly:BDGP6.54:mitochondrion_genome:9971:10495:1 gene:FBgn0013685 transcript:FBtr0100883 gene_biotype:protein_coding transcript_biotype:protein_coding gene_symbol:mt:ND6 description:mitochondrial NADH-ubiquinone oxidoreductase chain 6
+#
+# Program:         hmmsearch
+# Version:         3.1b1 (May 2013)
+# Pipeline mode:   SEARCH
+# Query file:      ./data/Pfam_hmm/ND6_PF00499.hmm
+# Target file:     ./data/target_sp_allpep/Drosophila_melanogaster.faa
+# Option settings: hmmsearch --tblout ./metadata/hmmsearch_output/ND6_PF00499/Drosophila_melanogaster.txt -E 1e-5 ./data/Pfam_hmm/ND6_PF00499.hmm ./data/target_sp_allpep/Drosophila_melanogaster.faa 
+# Current dir:     /home/liuzhiyu/Projects/neo_caste/check-scaffold-mito/1_run-Pfam-hmm
+# Date:            Wed Apr 22 22:54:00 2026
+# [ok]

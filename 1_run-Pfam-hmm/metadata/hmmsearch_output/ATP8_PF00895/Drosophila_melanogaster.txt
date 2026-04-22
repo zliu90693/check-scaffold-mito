@@ -1,0 +1,14 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+FBpp0100178          -          ATP-synt_8           PF00895.26   6.7e-17   62.4   9.5   7.3e-17   62.3   9.5   1.0   1   0   0   1   1   1   1 pep primary_assembly:BDGP6.54:mitochondrion_genome:3907:4068:1 gene:FBgn0013673 transcript:FBtr0100866 gene_biotype:protein_coding transcript_biotype:protein_coding gene_symbol:mt:ATPase8 description:mitochondrial ATPase subunit 8
+#
+# Program:         hmmsearch
+# Version:         3.1b1 (May 2013)
+# Pipeline mode:   SEARCH
+# Query file:      ./data/Pfam_hmm/ATP8_PF00895.hmm
+# Target file:     ./data/target_sp_allpep/Drosophila_melanogaster.faa
+# Option settings: hmmsearch --tblout ./metadata/hmmsearch_output/ATP8_PF00895/Drosophila_melanogaster.txt -E 1e-5 ./data/Pfam_hmm/ATP8_PF00895.hmm ./data/target_sp_allpep/Drosophila_melanogaster.faa 
+# Current dir:     /home/liuzhiyu/Projects/neo_caste/check-scaffold-mito/1_run-Pfam-hmm
+# Date:            Wed Apr 22 22:52:25 2026
+# [ok]

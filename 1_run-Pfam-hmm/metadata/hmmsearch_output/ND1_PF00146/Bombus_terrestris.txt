@@ -1,0 +1,16 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+ENSBTSP00005052173.1 -          NADHdh               PF00146.27   5.1e-49  168.2  14.3   8.3e-25   88.7   2.5   3.0   1   1   2   3   3   3   3 pep primary_assembly:iyBomTerr1.2:2:3231276:3342832:1 gene:ENSBTSG00005035307.1 transcript:ENSBTST00005048326.1 gene_biotype:protein_coding transcript_biotype:protein_coding
+ENSBTSP00005062988.1 -          NADHdh               PF00146.27   5.1e-33  115.7  17.4   4.9e-25   89.5  14.0   2.8   1   1   1   2   2   2   2 pep primary_assembly:iyBomTerr1.2:13:186701:187895:1 gene:ENSBTSG00005034729.1 transcript:ENSBTST00005058401.1 gene_biotype:protein_coding transcript_biotype:protein_coding
+ENSBTSP00005045165.1 -          NADHdh               PF00146.27   1.8e-32  113.8  17.7   4.6e-25   89.6  14.4   2.7   1   1   1   2   2   2   2 pep primary_assembly:iyBomTerr1.2:11:14943758:14944980:1 gene:ENSBTSG00005036907.1 transcript:ENSBTST00005063332.1 gene_biotype:protein_coding transcript_biotype:protein_coding
+#
+# Program:         hmmsearch
+# Version:         3.1b1 (May 2013)
+# Pipeline mode:   SEARCH
+# Query file:      ./data/Pfam_hmm/ND1_PF00146.hmm
+# Target file:     ./data/target_sp_allpep/Bombus_terrestris.faa
+# Option settings: hmmsearch --tblout ./metadata/hmmsearch_output/ND1_PF00146/Bombus_terrestris.txt -E 1e-5 ./data/Pfam_hmm/ND1_PF00146.hmm ./data/target_sp_allpep/Bombus_terrestris.faa 
+# Current dir:     /home/liuzhiyu/Projects/neo_caste/check-scaffold-mito/1_run-Pfam-hmm
+# Date:            Wed Apr 22 22:53:06 2026
+# [ok]

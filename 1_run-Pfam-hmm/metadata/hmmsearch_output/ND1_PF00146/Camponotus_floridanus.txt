@@ -1,0 +1,14 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+XP_019884947.1       -          NADHdh               PF00146.27   1.3e-64  218.8  28.5   1.6e-64  218.5  28.5   1.0   1   0   0   1   1   1   1 pep primary_assembly:Cflo_v7.5:QANI01000612.1:12180:13197:1 gene:LOC109610427 transcript:XM_020029388.2 gene_biotype:protein_coding transcript_biotype:protein_coding description:NADH-ubiquinone oxidoreductase chain 1-like
+#
+# Program:         hmmsearch
+# Version:         3.1b1 (May 2013)
+# Pipeline mode:   SEARCH
+# Query file:      ./data/Pfam_hmm/ND1_PF00146.hmm
+# Target file:     ./data/target_sp_allpep/Camponotus_floridanus.faa
+# Option settings: hmmsearch --tblout ./metadata/hmmsearch_output/ND1_PF00146/Camponotus_floridanus.txt -E 1e-5 ./data/Pfam_hmm/ND1_PF00146.hmm ./data/target_sp_allpep/Camponotus_floridanus.faa 
+# Current dir:     /home/liuzhiyu/Projects/neo_caste/check-scaffold-mito/1_run-Pfam-hmm
+# Date:            Wed Apr 22 22:53:06 2026
+# [ok]

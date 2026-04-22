@@ -1,0 +1,16 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+ENSBTSP00005062381.1 -          COX1                 PF00115.26     5e-21   76.0   3.3   5.8e-21   75.8   3.3   1.2   1   0   0   1   1   1   1 pep primary_assembly:iyBomTerr1.2:13:203065:203676:-1 gene:ENSBTSG00005023696.1 transcript:ENSBTST00005059471.1 gene_biotype:protein_coding transcript_biotype:protein_coding
+ENSBTSP00005050813.1 -          COX1                 PF00115.26   1.7e-10   41.3   4.5   4.5e-06   26.8   1.5   3.0   1   1   0   2   2   2   2 pep primary_assembly:iyBomTerr1.2:11:14954288:14955001:-1 gene:ENSBTSG00005030865.1 transcript:ENSBTST00005071204.1 gene_biotype:protein_coding transcript_biotype:protein_coding
+ENSBTSP00005041561.1 -          COX1                 PF00115.26     3e-07   30.6   9.8   6.5e-05   22.9   2.4   2.9   1   1   2   3   3   3   2 pep primary_assembly:iyBomTerr1.2:CAJUYY020000005.1:4431760:4433250:1 gene:ENSBTSG00005021666.1 transcript:ENSBTST00005069212.1 gene_biotype:protein_coding transcript_biotype:protein_coding
+#
+# Program:         hmmsearch
+# Version:         3.1b1 (May 2013)
+# Pipeline mode:   SEARCH
+# Query file:      ./data/Pfam_hmm/COX1_PF00115.hmm
+# Target file:     ./data/target_sp_allpep/Bombus_terrestris.faa
+# Option settings: hmmsearch --tblout ./metadata/hmmsearch_output/COX1_PF00115/Bombus_terrestris.txt -E 1e-5 ./data/Pfam_hmm/COX1_PF00115.hmm ./data/target_sp_allpep/Bombus_terrestris.faa 
+# Current dir:     /home/liuzhiyu/Projects/neo_caste/check-scaffold-mito/1_run-Pfam-hmm
+# Date:            Wed Apr 22 22:52:29 2026
+# [ok]

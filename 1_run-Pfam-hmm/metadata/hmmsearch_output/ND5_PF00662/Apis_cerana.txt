@@ -1,0 +1,15 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+XP_061942853.1       -          Proton_antipo_N      PF00662.27   6.2e-17   61.9   1.8   6.2e-17   61.9   1.8   3.3   3   0   0   3   3   3   1 LOW QUALITY PROTEIN: uncharacterized protein LOC133667607, partial [Apis cerana]
+YP_003735176.1       -          Proton_antipo_N      PF00662.27   1.3e-07   32.1   9.9   1.3e-07   32.1   9.9   6.6   8   0   0   8   8   8   1 NADH dehydrogenase subunit 5 (mitochondrion) [Apis cerana]
+#
+# Program:         hmmsearch
+# Version:         3.1b1 (May 2013)
+# Pipeline mode:   SEARCH
+# Query file:      ./data/Pfam_hmm/ND5_PF00662.hmm
+# Target file:     ./data/target_sp_allpep/Apis_cerana.faa
+# Option settings: hmmsearch --tblout ./metadata/hmmsearch_output/ND5_PF00662/Apis_cerana.txt -E 1e-5 ./data/Pfam_hmm/ND5_PF00662.hmm ./data/target_sp_allpep/Apis_cerana.faa 
+# Current dir:     /home/liuzhiyu/Projects/neo_caste/check-scaffold-mito/1_run-Pfam-hmm
+# Date:            Wed Apr 22 22:53:47 2026
+# [ok]

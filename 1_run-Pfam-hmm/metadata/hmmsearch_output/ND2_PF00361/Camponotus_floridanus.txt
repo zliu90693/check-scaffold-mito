@@ -1,0 +1,15 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+XP_019884946.2       -          Proton_antipo_M      PF00361.26     8e-47  160.2  14.5   1.1e-46  159.7  14.5   1.2   1   0   0   1   1   1   1 pep primary_assembly:Cflo_v7.5:QANI01000612.1:15993:17296:1 gene:LOC109610425 transcript:XM_020029387.2 gene_biotype:protein_coding transcript_biotype:protein_coding description:NADH-ubiquinone oxidoreductase chain 4-like
+XP_025263729.1       -          Proton_antipo_M      PF00361.26     1e-25   90.9  14.5   1.7e-25   90.3  14.5   1.3   1   0   0   1   1   1   1 pep primary_assembly:Cflo_v7.5:QANI01000198.1:17235:34072:-1 gene:LOC105255169 transcript:XM_025407944.1 gene_biotype:protein_coding transcript_biotype:protein_coding description:uncharacterized LOC105255169
+#
+# Program:         hmmsearch
+# Version:         3.1b1 (May 2013)
+# Pipeline mode:   SEARCH
+# Query file:      ./data/Pfam_hmm/ND2_PF00361.hmm
+# Target file:     ./data/target_sp_allpep/Camponotus_floridanus.faa
+# Option settings: hmmsearch --tblout ./metadata/hmmsearch_output/ND2_PF00361/Camponotus_floridanus.txt -E 1e-5 ./data/Pfam_hmm/ND2_PF00361.hmm ./data/target_sp_allpep/Camponotus_floridanus.faa 
+# Current dir:     /home/liuzhiyu/Projects/neo_caste/check-scaffold-mito/1_run-Pfam-hmm
+# Date:            Wed Apr 22 22:53:12 2026
+# [ok]
