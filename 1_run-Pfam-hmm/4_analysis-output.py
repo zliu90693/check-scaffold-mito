@@ -28,6 +28,6 @@ for hmm_output_path in path_obj.rglob('*.txt'):
 
 df = pd.DataFrame(results).sort_values(by='species')
 # df
-df.to_csv("./metadata/mito-gene-in-target.csv")
+df.to_csv("./metadata/mito-gene-in-target.csv", index=False)
 
 # %%
